@@ -8,7 +8,7 @@ import {ScrollToTop, Navbar} from "@/component"
 const App = () => {
     return (
         <>
-            <Navbar />
+            <Navbar/>
             <Routes>
                 <Route path="/" element={<Main/>}/>
             </Routes>
